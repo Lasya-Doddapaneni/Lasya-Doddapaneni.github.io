@@ -3,16 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lasya Doddapaneni | Resume</title>
+  <title>Lasya Doddapaneni | Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
   <header>
     <h1>Lasya Doddapaneni</h1>
     <p>🎓 Middle School Student | Aspiring Pre-Med | Science, Leadership & Community Service</p>
-    <p>📧 <a href="mailto:yourprojectemail@gmail.com">yourprojectemail@gmail.com</a></p>
-    <p>🔗 <a href="https://github.com/Lasya-Doddapaneni">GitHub</a> | 🎥 <a href="https://www.youtube.com/@YourChannelName">YouTube</a></p>
+    <p>📧 <a href="mailto:yourprojectemail@gmail.com">yourprojectemail@gmail.com</a> | 🔗 <a href="https://github.com/Lasya-Doddapaneni">GitHub</a> | 🎥 <a href="https://www.youtube.com/@YourChannelName">YouTube</a></p>
   </header>
+
+  <nav>
+    <ul>
+      <li><a href="#profile">Profile</a></li>
+      <li><a href="#leadership">Leadership</a></li>
+      <li><a href="#girl-scouts">Girl Scouts</a></li>
+      <li><a href="#volunteering">Volunteering</a></li>
+      <li><a href="#awards">Awards</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+    </ul>
+  </nav>
 
   <main>
     <section id="profile">
@@ -60,15 +72,6 @@
       </ul>
     </section>
 
-    <section id="clubs">
-      <h2>Clubs & Activities</h2>
-      <ul>
-        <li>Math Club</li>
-        <li>Flute</li>
-        <li>Science and service-oriented extracurricular activities</li>
-      </ul>
-    </section>
-
     <section id="skills">
       <h2>Skills & Certifications</h2>
       <ul>
@@ -79,14 +82,26 @@
       </ul>
     </section>
 
-    <section id="interests">
-      <h2>Interests</h2>
-      <p>Healthcare • Biology • Community Education • Research • Volunteering</p>
+    <section id="projects">
+      <h2>Projects</h2>
+      <h3>Girl Scouts Silver Award Project: Pet Safety Education</h3>
+      <ul>
+        <li>Created educational YouTube videos reaching 100+ viewers</li>
+        <li>Organized local community pet safety workshops</li>
+      </ul>
+
+      <h3>Brain Bee & Science Competitions</h3>
+      <ul>
+        <li>Participated in chapter-level Brain Bee competitions</li>
+        <li>Conducted independent research on neuroscience topics</li>
+      </ul>
     </section>
+
   </main>
 
   <footer>
     <p>&copy; 2026 Lasya Doddapaneni</p>
   </footer>
+
 </body>
 </html>
