@@ -16,7 +16,13 @@ section {
   margin: 60px auto;
   padding: 0 20px;
 }
-
+<style>
+  .right-img {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+  }
+</style>
 /* ===== NAVBAR ===== */
 .navbar {
   position: sticky;
