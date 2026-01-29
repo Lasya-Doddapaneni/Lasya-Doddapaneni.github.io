@@ -13,13 +13,13 @@ h1, h2 {
 
 section {
   max-width: 900px;
-  margin: 60px auto;
-  padding: 0 20px;
+  margin: 90px auto;
+  padding: 0 40px;
 }
 .right-img {
     display: block;
     margin-left: auto;  /* pushes the image to the right */
-    width: 200px;       /* adjust size */
+    width: 400px;       /* adjust size */
 }
 
 /* ===== NAVBAR ===== */
