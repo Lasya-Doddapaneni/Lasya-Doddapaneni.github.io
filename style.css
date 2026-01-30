@@ -1,32 +1,197 @@
-.navbar {
-  position: sticky;
-  top: 0;
-  background: white;
-  border-bottom: 1px solid #ddd;
-  z-index: 1000;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Portfolio</title>
 
-.nav-container {
-  max-width: 1000px;
-  margin: auto;
-  padding: 15px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+  <style>
+    /* ===== GLOBAL ===== */
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      color: #2c2c2c;
+      background: #ffffff;
+      line-height: 1.6;
+    }
 
-.navbar nav {
-  display: flex;
-  align-items: center;
-}
+    h1, h2 {
+      color: #1f3c88;
+    }
 
-.navbar nav a {
-  margin-left: 18px;
-  font-weight: 600;
-  color: #333;
-  text-decoration: none;
-}
+    section {
+      max-width: 900px;
+      margin: 90px auto;
+      padding: 0 40px;
+    }
 
-.navbar nav a:hover {
-  color: #1f3c88;
-}
+    /* ===== NAVBAR ===== */
+    .navbar {
+      position: sticky;
+      top: 0;
+      background: white;
+      border-bottom: 1px solid #ddd;
+      z-index: 1000;
+    }
+
+    .nav-container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-weight: 700;
+      font-size: 1.2rem;
+      color: #1f3c88;
+    }
+
+    .navbar nav {
+      display: flex;
+      align-items: center;
+    }
+
+    .navbar nav a {
+      margin-left: 18px;
+      font-weight: 600;
+      color: #333;
+      text-decoration: none;
+    }
+
+    .navbar nav a:hover {
+      color: #1f3c88;
+      text-decoration: underline;
+    }
+
+    /* ===== HERO ===== */
+    .hero {
+      background: #eef3f9;
+      text-align: center;
+      padding: 70px 20px;
+    }
+
+    .hero-img {
+      width: 160px;
+      border-radius: 50%;
+      border: 4px solid #d6e0f0;
+      margin-bottom: 15px;
+    }
+
+    .hero h1 {
+      margin: 10px 0 5px;
+      font-size: 2.4rem;
+    }
+
+    /* ===== LISTS ===== */
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    /* ===== FOOTER ===== */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #f4f6f8;
+      border-top: 1px solid #ddd;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar">
+    <div class="nav-container">
+      <div class="logo">My Portfolio</div>
+      <nav>
+        <a href="#profile">Profile</a>
+        <a href="#leadership">Leadership</a>
+        <a href="#girlscouts">Girl Scouts</a>
+        <a href="#volunteering">Volunteering</a>
+        <a href="#awards">Awards</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <div class="hero">
+    <img src="profile.jpg" alt="Profile Photo" class="hero-img">
+    <h1>Your Name</h1>
+    <p>Student | Future Pre-Med | Leader</p>
+  </div>
+
+  <!-- ===== SECTIONS ===== -->
+  <section id="profile">
+    <h2>Profile</h2>
+    <p>
+      Motivated student with strong interests in healthcare, science,
+      leadership, and community service.
+    </p>
+  </section>
+
+  <section id="leadership">
+    <h2>Leadership</h2>
+    <ul>
+      <li>Editor-in-Chief, School Newspaper</li>
+      <li>Student Advisory Board Member</li>
+      <li>Student Council Representative</li>
+    </ul>
+  </section>
+
+  <section id="girlscouts">
+    <h2>Girl Scouts</h2>
+    <ul>
+      <li>Silver Award Project Leader</li>
+      <li>Community education initiatives</li>
+    </ul>
+  </section>
+
+  <section id="volunteering">
+    <h2>Volunteering</h2>
+    <ul>
+      <li>Animal welfare organization volunteer</li>
+      <li>PURE Presidential Volunteer Award</li>
+    </ul>
+  </section>
+
+  <section id="awards">
+    <h2>Awards</h2>
+    <ul>
+      <li>Presidential Volunteer Service Award</li>
+      <li>Academic Excellence Award</li>
+    </ul>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Public Speaking</li>
+      <li>Research & Writing</li>
+      <li>Leadership & Teamwork</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>Pet Safety Education Project</li>
+      <li>YouTube Educational Content Creator</li>
+    </ul>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    © 2026 Your Name
+  </footer>
+
+</body>
+</html>
