@@ -17,8 +17,9 @@ section {
   padding: 0 40px;
 }
 .right-img {
-    display: block;
-    margin-left: auto;  /* pushes the image to the right */
+    display: flex;
+  alihn-items:center;
+   /* margin-left: auto;   pushes the image to the right */
     width: 400px;       /* adjust size */
 }
 
