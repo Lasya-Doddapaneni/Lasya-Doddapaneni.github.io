@@ -1,33 +1,4 @@
-/* ===== GLOBAL ===== */
-body {
-  background-color: cream;
-  margin: 0;
-  font-family: "Segoe UI", Arial, sans-serif;
-  color: #2c2c2c;
-  background: #ffffff;
-  line-height: 1.6;
-}
-
-h1, h2 {
-  color: #1f3c88;
-}
-
-section {
-  max-width: 900px;
-  margin: 90px auto;
-  padding: 0 40px;
-}
-.right-img {
-    display: flex;
-  alihn-items:center;
-   /* margin-left: auto;   pushes the image to the right */
-    width: 400px;       /* adjust size */
-}
-
-/* ===== NAVBAR ===== */
 .navbar {
-  display: flex;
-  alihn-items:center;
   position: sticky;
   top: 0;
   background: white;
@@ -44,49 +15,18 @@ section {
   align-items: center;
 }
 
+.navbar nav {
+  display: flex;
+  align-items: center;
+}
+
 .navbar nav a {
   margin-left: 18px;
   font-weight: 600;
   color: #333;
+  text-decoration: none;
 }
 
 .navbar nav a:hover {
   color: #1f3c88;
-}
-
-/* ===== HERO ===== */
-.hero {
-  background: #eef3f9;
-  text-align: center;
-  padding: 70px 20px;
-}
-
-.hero-img {
-  width: 160px;
-  border-radius: 50%;
-  border: 4px solid #d6e0f0;
-  margin-bottom: 15px;
-}
-
-.hero h1 {
-  margin: 10px 0 5px;
-  font-size: 2.4rem;
-}
-
-/* ===== LISTS ===== */
-ul {
-  padding-left: 20px;
-}
-
-li {
-  margin-bottom: 8px;
-}
-
-/* ===== FOOTER ===== */
-footer {
-  text-align: center;
-  padding: 20px;
-  background: #f4f6f8;
-  border-top: 1px solid #ddd;
-  margin-top: 60px;
 }
