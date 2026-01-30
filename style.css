@@ -26,6 +26,8 @@ section {
 
 /* ===== NAVBAR ===== */
 .navbar {
+  display: flex;
+  alihn-items:center;
   position: sticky;
   top: 0;
   background: white;
