@@ -64,8 +64,8 @@ section {
 }
 
 .hero-img {
-  width: 160px;
-  border-radius: 50%;
+  width: 60px;
+  border-radius: 20%;
   border: 4px solid #d6e0f0;
   margin-bottom: 15px;
 }
