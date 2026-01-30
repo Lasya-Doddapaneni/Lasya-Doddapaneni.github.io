@@ -63,9 +63,10 @@ section {
   padding: 70px 20px;
 }
 
-.hero-img {
+.round-img {
   width: 60px;
-  border-radius: 20%;
+  height:60px
+  border-radius: 50%;
   border: 4px solid #d6e0f0;
   margin-bottom: 15px;
 }
