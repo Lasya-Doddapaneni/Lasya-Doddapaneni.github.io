@@ -7,9 +7,7 @@ body {
   line-height: 1.6;
 }
 
-h1, h2 {
-  color: #1f3c88;
-}
+h1, h2 { color: #1f3c88; }
 
 section {
   max-width: 900px;
@@ -26,7 +24,6 @@ section {
   z-index: 1000;
 }
 
-/* container holding logo + nav links */
 .nav-container {
   max-width: 1000px;
   margin: auto;
@@ -36,25 +33,15 @@ section {
   align-items: center;
 }
 
-/* nav links horizontal */
-.navbar nav {
-  display: flex;
-  align-items: center;
-}
+.navbar nav { display: flex; align-items: center; }
 
-/* individual links */
 .navbar nav a {
   margin-left: 18px;
   font-weight: 600;
   color: #333;
   text-decoration: none;
 }
-
-/* hover effect */
-.navbar nav a:hover {
-  color: #1f3c88;
-  text-decoration: underline;
-}
+.navbar nav a:hover { color: #1f3c88; text-decoration: underline; }
 
 /* ===== HERO ===== */
 .hero {
@@ -65,28 +52,20 @@ section {
 
 .round-img {
   width: 70px;
-  height:70px;
+  height: 70px;
   border-radius: 50%;
   border: 10px solid #d6e0f0;
   margin-bottom: 25px;
-display: block;
+  display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-.hero h1 {
-  margin: 10px 0 5px;
-  font-size: 2.4rem;
-}
+.hero h1 { margin: 10px 0 5px; font-size: 2.4rem; }
 
 /* ===== LISTS ===== */
-ul {
-  padding-left: 20px;
-}
-
-li {
-  margin-bottom: 8px;
-}
+ul { padding-left: 20px; }
+li { margin-bottom: 8px; }
 
 /* ===== FOOTER ===== */
 footer {
